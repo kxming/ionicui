@@ -1,0 +1,7 @@
+{
+  "name": "ionicui",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
