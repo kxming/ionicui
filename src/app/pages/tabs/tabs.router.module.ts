@@ -7,6 +7,15 @@ const routes: Routes = [
     path: 'tabs',
     component: TabsPage,
     children: [
+      { path: 'mine',
+        children: [
+          {
+            path: '',
+            loadChildren: () =>
+                import('../mine/mine.module').then(m => m.MinePageModule)
+          }
+        ]
+      },
       {
         path: 'tab1',
         children: [
