@@ -1,0 +1,91 @@
+export interface Component {
+    name: string;
+    icon: string;
+    uiKit: string;
+}
+
+export const components: Component[] = [{
+    name: 'action-sheet',
+    icon: '',
+    uiKit: 'ionic'
+}, {
+    name: 'alert',
+    icon: '',
+    uiKit: 'ionic'
+}, {
+    name: 'badge',
+    icon: '',
+    uiKit: 'ionic'
+}, {
+    name: 'button',
+    icon: '',
+    uiKit: 'ionic'
+}, {
+    name: 'ripple-effect',
+    icon: '',
+    uiKit: 'ionic'
+}, {
+    name: 'card',
+    icon: '',
+    uiKit: 'ionic'
+}, {
+    name: 'checkbox',
+    icon: '',
+    uiKit: 'ionic'
+}, {
+    name: 'chip',
+    icon: '',
+    uiKit: 'ionic'
+}, {
+    name: 'app',
+    icon: '',
+    uiKit: 'ionic'
+}, {
+    name: 'content',
+    icon: '',
+    uiKit: 'ionic'
+}, {
+    name: 'datetime',
+    icon: '',
+    uiKit: 'ionic'
+}, {
+    name: 'picker',
+    icon: '',
+    uiKit: 'ionic'
+}, {
+    name: 'fab',
+    icon: '',
+    uiKit: 'ionic'
+}, {
+    name: 'grid',
+    icon: '',
+    uiKit: 'ionic'
+}, {
+    name: 'infinite-scroll',
+    icon: '',
+    uiKit: 'ionic'
+}, {
+    name: 'icon',
+    icon: '',
+    uiKit: 'ionic'
+}, {
+    name: 'input',
+    icon: '',
+    uiKit: 'ionic'
+}, {
+    name: 'textarea',
+    icon: '',
+    uiKit: 'ionic'
+}, {
+    name: 'list',
+    icon: '',
+    uiKit: 'ionic'
+}, {
+    name: 'label',
+    icon: '',
+    uiKit: 'ionic'
+}, {
+    name: 'note',
+    icon: '',
+    uiKit: 'ionic'
+}];
