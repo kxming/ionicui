@@ -88,4 +88,28 @@ export const components: Component[] = [{
     name: 'note',
     icon: '',
     uiKit: 'ionic'
+}, {
+    name: 'virtual-scroll',
+    icon: '',
+    uiKit: 'ionic'
+}, {
+    name: 'avatar',
+    icon: '',
+    uiKit: 'ionic'
+}, {
+    name: 'img',
+    icon: '',
+    uiKit: 'ionic'
+}, {
+    name: 'thumbnail',
+    icon: '',
+    uiKit: 'ionic'
+}, {
+    name: 'split-pane',
+    icon: '',
+    uiKit: 'ionic'
+}, {
+    name: 'modal',
+    icon: '',
+    uiKit: 'ionic'
 }];
